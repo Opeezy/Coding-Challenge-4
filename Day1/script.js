@@ -21,7 +21,7 @@ fs.readFile('./input.txt', 'utf-8', (err, data) => {
 				return
 			}			
 		})
-		console.log(startFloor + floorUp - floorDown);
+		console.log(`Santa will have to climb ${startFloor + floorUp - floorDown} floors.`);
 	}
 })
 	
